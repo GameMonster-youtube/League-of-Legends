@@ -1,0 +1,16 @@
+/* 링크 스타일 설정 */
+a { text-decoration:none } /* 링크의 밑줄 없애기 */
+a:link {text-decoration: none; color: pink;} /* 방문한 적 없는 링크의 색상 */
+a:visited {text-decoration: none; color: pink;} /* 방문한 적 있는 링크의 색상 */
+a:active {text-decoration: none; color: pink;} /* 링크를 클릭했을떄 색깔(순식간이라 구별이 힘듬) */
+a:hover {text-decoration: underline; color: red;} /* 마우스를 링크 위에 올려 놨을떄 생상 */
+
+
+
+
+
+/* 광고 배너 설정 */
+.ad-banner{
+  width: 50%;
+  align: center;
+}
