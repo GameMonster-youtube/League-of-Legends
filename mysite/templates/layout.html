@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link href="/static/css/layout.css" rel="stylesheet">
+    <link href="/static/css/foundation.css" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <div class="nowrap top-back">
+            <a href="https://www.youtube.com/channel/UCIK1JnixnXYZRjeSBaTrm9w" target="_blank" style="padding-top: 45px;">
+                <img src="/static/img/GM logo.png" alt="게임Monster 로고" class="logo" width="70" height="70">
+            </a>
+            <a href="https://www.youtube.com/channel/UCIK1JnixnXYZRjeSBaTrm9w" target="_blank" style="font-weight: bold; font-size: 20px;">GameMonter</a>
+            <div class="top-div">
+                <span><a href="/login">로그인 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+                <span><a href="/register">회원가입</a></span>
+            </div>
+            <h1 class="top-h1"><a href="/">Home</a></h1>
+            <h1 class="top-h1"><a href="/introduce">챔피언 소개</a></h1>
+        </div>
+    </header>
+    <section>
+    {% block content %}
+    {% endblock %}
+    </section>
+    
+</body>
+</html>
